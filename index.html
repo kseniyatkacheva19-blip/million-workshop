@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Нейро Визуал — мастер-класс по нейроконтенту</title>
+<meta name="description" content="Онлайн-мастер-класс: собери premium fashion-кампанию с помощью нейросетей за один вечер — без камеры, студии и модели.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="ic-spark" viewBox="0 0 24 24"><path d="M12 0c0 6.075 5.925 12 12 12-6.075 0-12 5.925-12 12 0-6.075-5.925-12-12-12C6.075 12 12 6.075 12 0Z"/></symbol>
+  <symbol id="ic-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M7 17 17 7M9 7h8v8"/></symbol>
+</svg>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark"><svg viewBox="0 0 24 24"><use href="#ic-spark" fill="#fff"/></svg></span>
+        <span>NEURO&nbsp;·&nbsp;KSU</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#program">Программа</a></li>
+        <li><a href="#outcomes">Результат</a></li>
+        <li><a href="#gallery">Работы</a></li>
+        <li><a href="#author">Автор</a></li>
+        <li><a href="#faq">Вопросы</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#details" class="btn btn-line">Стоимость</a>
+        <a href="#details" class="btn btn-red">Записаться</a>
+        <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#program">Программа</a>
+  <a href="#outcomes">Результат</a>
+  <a href="#gallery">Работы</a>
+  <a href="#author">Автор</a>
+  <a href="#faq">Вопросы</a>
+  <a href="#details" class="btn btn-red" style="font-family:var(--sans); font-size:13px; margin-top:10px;">Записаться</a>
+</div>
+
+<header class="hero" id="top">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <span class="eyebrow on-dark reveal">Воркшоп</span>
+        <h1 class="title hero-h1 reveal">
+          НЕЙРОКРЕАТОР<br>
+          НА <span class="red">МИЛЛИОН</span>
+        </h1>
+        <div class="hero-note reveal">
+          <p>Собери premium fashion-кампанию с помощью нейросетей — без камеры, студии и модели. Создай своего помощника по поиску клиентов и получи первые заказы.</p>
+          <a href="#details" class="btn btn-line on-dark">Занять место <span class="arrow-dot"><svg width="14" height="14"><use href="#ic-arrow" stroke="currentColor"/></svg></span></a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="date-stamp"><span class="d-num">1–2</span><span class="d-word">октября</span></div>
+        <div class="hero-collage">
+          <div class="collage-item c1">
+            <div class="duo"><img src="images/collage-1.jpg" alt="Нейросгенерированный fashion-визуал"></div>
+            <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          </div>
+          <div class="collage-item c2">
+            <div class="duo"><img src="images/full-1.jpg" alt="Нейросгенерированный fashion-визуал"></div>
+            <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          </div>
+          <div class="collage-item c3">
+            <div class="duo"><img src="images/portrait-bw.jpg" alt="Нейросгенерированный fashion-визуал"></div>
+            <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          </div>
+        </div>
+        <div class="hero-cards">
+          <div class="hero-card stat"><b>×10</b><span>быстрее продакшена</span></div>
+          <a href="#details" class="hero-card cta"><span>Записаться на поток</span><span class="arrow-dot"><svg width="14" height="14"><use href="#ic-arrow" stroke="currentColor"/></svg></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="statement" id="why">
+  <div class="container statement-grid">
+    <div class="side-label reveal">ПОЧЕМУ<br>СЕЙЧАС /</div>
+    <h2 class="title reveal">
+      НЕЙРОСЕТИ СОБИРАЮТ <svg class="spark" viewBox="0 0 24 24"><use href="#ic-spark"/></svg><br>
+      <span class="red">PREMIUM-ВИЗУАЛ,</span><br>
+      <span class="grey">КОТОРЫЙ МЕНЯЕТ</span><br>
+      <span class="grey">ПРАВИЛА СЪЁМОК</span>
+    </h2>
+    <div class="statement-aside reveal">
+      <p>Бренды и блогеры всё быстрее переходят в онлайн — и им нужен контент здесь и сейчас. Нейросети заменяют дорогой продакшн на один вечер за ноутбуком: те же premium-кадры, только без камеры, студии и недель ожидания.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="trio reveal">
+      <div class="duo"><img src="images/trio-1.jpg" loading="lazy" alt="Пример нейровизуала"></div>
+      <div class="duo"><img src="images/trio-2.jpg" loading="lazy" alt="Пример нейровизуала"></div>
+      <div class="duo"><img src="images/trio-3.jpg" loading="lazy" alt="Пример нейровизуала"></div>
+    </div>
+  </div>
+</section>
+
+<section class="program" id="program">
+  <div class="container">
+    <div class="program-head reveal">
+      <span class="eyebrow">Программа</span>
+      <h2 class="title">ВСЁ, ЧТО НУЖНО,<br><span class="red">ЧТОБЫ ВЫЙТИ НА ДОХОД</span><br>В 300 000 РУБЛЕЙ</h2>
+      <p>За два дня</p>
+    </div>
+
+    <div class="day-group reveal">
+      <div class="day-head"><span class="day-num">1 октября</span></div>
+      <div class="day-cards">
+        <div class="day-card">
+          <span class="num">01</span>
+          <ul class="steps">
+            <li>Введение в профессию нейрокреатора, почему она будет в топе ещё минимум 5 лет</li>
+            <li>Создание своего первого ИИ-сотрудника в команду по генерации профессиональных идей для контента, отталкиваясь от полноценного анализа ниши</li>
+          </ul>
+          <div class="result">
+            <span class="result-label">Результат</span>
+            <ul>
+              <li>Создание своего личного ИИ-сотрудника, который будет уметь разрабатывать и визуализировать идеи</li>
+            </ul>
+          </div>
+        </div>
+        <div class="day-card">
+          <span class="num">02</span>
+          <ul class="steps">
+            <li>Оцифровка своей внешности, создание своей карточки персонажа</li>
+            <li>Создание профессионального киношного ролика с собой и любым товаром</li>
+            <li>Создание мультика по вашей задумке</li>
+          </ul>
+          <div class="result">
+            <span class="result-label">Результат</span>
+            <ul>
+              <li>Два профессиональных продуманных видеоролика через самую топовую нейросеть Seedance 2.5</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-group reveal">
+      <div class="day-head"><span class="day-num">2 октября</span></div>
+      <div class="day-cards">
+        <div class="day-card">
+          <span class="num">01</span>
+          <ul class="steps">
+            <li>Создание своего персонального ИИ-ассистента по поиску клиентов</li>
+            <li>Как в текущих реалиях искать клиентов и выйти на доход от 300К в месяц на нейроконтенте — мой авторский метод</li>
+          </ul>
+          <div class="result">
+            <span class="result-label">Результат</span>
+            <ul>
+              <li>Собственный ассистент по поиску клиентов — не придётся тратить часы на поиски заказов вручную</li>
+              <li>Чёткий план выхода на 300 000 ₽</li>
+            </ul>
+          </div>
+        </div>
+        <div class="day-card highlight">
+          <span class="num">02</span>
+          <ul class="steps">
+            <li>Презентация основного 2-месячного курса по обучению созданию профессионального ИИ-контента любой сложности и полноценной ИИ-команды для автоматизации создания контента</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="feature" id="outcomes">
+  <div class="container">
+    <div class="feature-head reveal">
+      <span class="eyebrow">Итоги встречи</span>
+      <h2 class="title">ТО, ЧТО ДРУГИЕ ПРОДАЮТ ЗА <span class="red">50–100 ТЫС ₽</span><br>ТЫ ПОЛУЧИШЬ <span class="grey">ПО ЦЕНЕ БОКАЛА ВИНА</span> —<br>РЕЗУЛЬТАТ, КОТОРЫЙ СРАЗУ МОЖНО<br>ВВОДИТЬ В ПРАКТИКУ УЖЕ НА СЛЕДУЮЩИЙ ДЕНЬ БЕЗ ВОДЫ</h2>
+    </div>
+    <div class="feature-row reveal">
+      <div class="f-card">
+        <div class="duo"><img src="images/full-2.jpg" loading="lazy" alt="Работающий ИИ-ассистент"></div>
+        <div class="f-card-cap">
+          <span class="idx">01</span>
+          <h3>Работающий ИИ-ассистент</h3>
+        </div>
+      </div>
+      <div class="f-card">
+        <div class="duo"><img src="images/portrait-1.jpg" loading="lazy" alt="Два сильных кейса в портфолио"></div>
+        <div class="f-card-cap">
+          <span class="idx">02</span>
+          <h3>2 сильных кейса в портфолио в самой дорогооплачиваемой нейросети</h3>
+        </div>
+      </div>
+      <div class="f-card">
+        <div class="duo"><img src="images/full-4.jpg" loading="lazy" alt="Ассистент по поиску заказов"></div>
+        <div class="f-card-cap">
+          <span class="idx">03</span>
+          <h3>Ассистент по поиску заказов</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="author">
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="about-mono"><img src="images/author-avatar.jpg" alt="Ксения Ткачева"></div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Автор мастер-класса</span>
+        <h2 class="title" style="text-transform:none; font-family:var(--sans); font-weight:800;">Ксения Ткачева</h2>
+        <span class="handle">@kseni_tkacheva</span>
+        <p>
+          AI-креатор с опытом в диджитале более 5 лет — до нейросетей работала веб-дизайнером
+          в международной компании. Сегодня создаю нейрофотосессии, кампании и нейроперсонажей
+          для fashion-брендов, блогеров и креативного бизнеса через своих ИИ-сотрудников, зарабатывая
+          300–600 тыс. рублей в месяц чисто на нейроконтенте. А на мастер-классах учу этому других
+          без воды и лишней теории уже пол года — 200+ выпускников с потрясающими кейсами.
+        </p>
+        <div class="about-proof">
+          <div><b>5+ лет</b><span>в диджитал-дизайне</span></div>
+          <div><b>+35 000</b><span>подписчиков за 3 месяца</span></div>
+          <div><b>10+</b><span>заказов в день на пике</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="details" id="details">
+  <div class="container">
+    <div class="details-grid solo">
+      <div class="reveal">
+        <div class="price-card">
+          <span class="price-date">1–2 октября</span>
+          <span class="eyebrow">Билет на воркшоп</span>
+          <div class="price-old">15 990 ₽</div>
+          <div class="price-new">990 ₽ <span>/ участие</span></div>
+          <ul class="price-list">
+            <li>Живой эфир + запись навсегда</li>
+            <li>Все инструкции и промпты с эфира документами в подарок</li>
+            <li>Обратная связь на получившиеся работы</li>
+            <li>Скидки более 20% на дальнейшие курсы</li>
+          </ul>
+          <a href="https://t.me/kseni_tkacheva" class="btn btn-red">Занять место</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="statement" id="gallery">
+  <div class="container video-head-full">
+    <span class="eyebrow reveal">Работы студентов</span>
+    <h2 class="title reveal">КЕЙСЫ <span class="red">СТУДЕНТОВ</span></h2>
+    <p class="reveal">Реальные кейсы студентов, которые пришли ко мне с нуля</p>
+  </div>
+  <div class="container">
+    <div class="video-row reveal">
+      <div class="video-card" data-video="videos/case-1.mp4" style="aspect-ratio:536/960;">
+        <img class="poster" src="images/case-1-poster.jpg" loading="lazy" alt="Кейс ученика 1">
+        <span class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+      </div>
+      <div class="video-card" data-video="videos/case-2.mp4" style="aspect-ratio:528/960;">
+        <img class="poster" src="images/case-2-poster.jpg" loading="lazy" alt="Кейс ученика 2">
+        <span class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+      </div>
+      <div class="video-card" data-video="videos/case-3.mp4" style="aspect-ratio:540/960;">
+        <img class="poster" src="images/case-3-poster.jpg" loading="lazy" alt="Кейс ученика 3">
+        <span class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+      </div>
+      <div class="video-card" data-video="videos/case-6.mp4" style="aspect-ratio:960/540;">
+        <img class="poster" src="images/case-6-poster.jpg" loading="lazy" alt="Кейс ученика 4">
+        <span class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+      </div>
+      <div class="video-card" data-video="videos/case-4.mp4" style="aspect-ratio:534/960;">
+        <img class="poster" src="images/case-4-poster.jpg" loading="lazy" alt="Кейс ученика 5">
+        <span class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+      </div>
+      <div class="video-card" data-video="videos/case-5.mp4" style="aspect-ratio:540/960;">
+        <img class="poster" src="images/case-5-poster.jpg" loading="lazy" alt="Кейс ученика 6">
+        <span class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" id="reviews">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Отзывы</span>
+      <h2 class="title">ЧТО ГОВОРЯТ <span class="red">ПОСЛЕ КУРСА</span></h2>
+    </div>
+    <div class="review-grid reveal">
+      <div class="review-card"><img src="images/review-1.jpg" loading="lazy" alt="Отзыв ученицы"></div>
+      <div class="review-card"><img src="images/review-2.jpg" loading="lazy" alt="Отзыв ученицы"></div>
+      <div class="review-card"><img src="images/review-3.jpg" loading="lazy" alt="Отзыв ученицы"></div>
+      <div class="review-card"><img src="images/review-4.jpg" loading="lazy" alt="Отзыв ученицы"></div>
+      <div class="review-card"><img src="images/review-5.jpg" loading="lazy" alt="Отзыв ученика"></div>
+      <div class="review-card"><img src="images/review-6.jpg" loading="lazy" alt="Отзыв ученицы"></div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-head reveal">
+      <span class="eyebrow">Частые вопросы</span>
+      <h2 class="title">ЕСЛИ ЕЩЁ<br><span class="red">СОМНЕВАЕШЬСЯ</span></h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q"><span>Нужен ли опыт работы с нейросетями?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Нет. Разбираем всё с нуля — от установки и настройки инструментов до сборки первой кампании. Достаточно уверенно пользоваться телефоном или ноутбуком.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Что потребуется технически?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Телефон или ноутбук с выходом в интернет. Все инструменты, которые разбираем на мастер-классе, работают прямо в браузере — ничего сложного устанавливать не нужно.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Останется ли запись?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Да, запись доступна бессрочно — можно пересматривать и практиковаться в своём темпе после эфира.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Это часть большого курса?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Нет, это самостоятельный мастер-класс с законченным результатом. При этом он даёт представление о том, как устроено полное обучение нейрокреаторству — если после захочешь углубиться.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Сколько денег стоят подписки, необходимые для работы?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Суммарно вам потребуется только подписка в ChatGPT (на эфире покажем, как её установить) и около 600–800 рублей на нейросети по созданию видео.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Что я смогу делать после мастер-класса?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Разрабатывать идеи и реализовывать сложные коммерческие ролики, понимать логику и суть разработки видео через нейросети, а также без труда находить заказы через вашего ассистента.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="container">
+    <h2 class="title reveal">ОСТАЛИСЬ ЕЩЁ <span class="red">ВОПРОСЫ?</span></h2>
+    <p class="reveal">Напиши Ксении в Телеграм, она сориентирует вас лично.</p>
+    <a href="https://t.me/kseni_tkacheva" class="btn btn-red reveal">Написать в Телеграм</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <a href="#top" class="logo"><span class="logo-mark"><svg viewBox="0 0 24 24"><use href="#ic-spark" fill="#fff"/></svg></span><span>NEURO&nbsp;·&nbsp;KSU</span></a>
+      <div class="footer-links">
+        <a href="https://t.me/kseni_tkacheva">Telegram</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#details">Записаться</a>
+      </div>
+    </div>
+    <p class="footer-legal">
+      ИП Ткачева Ксения Олеговна · ИНН 550307239789 · kseniya.tkacheva.00@mail.ru<br>
+      Публичная оферта и политика конфиденциальности предоставляются по запросу.
+    </p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<div class="lightbox video-lightbox" id="videoLightbox">
+  <button class="lightbox-close" id="videoLightboxClose">✕</button>
+  <video id="videoLightboxPlayer" controls playsinline></video>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
