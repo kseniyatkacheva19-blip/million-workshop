@@ -250,7 +250,15 @@
             <li>Обратная связь на получившиеся работы</li>
             <li>Скидки более 20% на дальнейшие курсы</li>
           </ul>
-          <a href="https://t.me/ksuneuro" class="btn btn-red">Занять место</a>
+          <form class="payform-tbank" name="payform-tbank" method="POST" action="https://securepay.tinkoff.ru/html/payForm/init.js" target="_blank">
+            <input type="hidden" name="terminalkey" value="1788278749824DEMO" />
+            <input type="hidden" name="frame" value="false" />
+            <input type="hidden" name="language" value="ru" />
+            <input type="hidden" name="amount" value="990" />
+            <input type="hidden" name="order" id="tbankOrderId" value="" />
+            <input type="hidden" name="description" value="Участие в воркшопе «Нейрокреатор на миллион»" />
+            <button type="submit" class="btn btn-red" style="width:100%; justify-content:center; border:none; cursor:pointer;">Занять место</button>
+          </form>
         </div>
       </div>
     </div>
@@ -382,5 +390,10 @@
 </div>
 
 <script src="script.js"></script>
+<script src="https://securepay.tinkoff.ru/html/payForm/js/tinkoff_v2.js"></script>
+<script>
+  var tbankOrderId = document.getElementById('tbankOrderId');
+  if (tbankOrderId) { tbankOrderId.value = 'ws-' + Date.now(); }
+</script>
 </body>
 </html>
